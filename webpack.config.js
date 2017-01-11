@@ -8,12 +8,14 @@ module.exports = {
     resolve: {
         extensions: ['', '.js', '.jsx']
     },
+
     output: {
         path: 'examples/__build__',
         publicPath: '/',
         filename: '[name].js',
         chunkFilename: "[name].chunk.js"
     },
+
     devTool: 'cheap-module-eval-source-map',
     module: {
         loaders: [
